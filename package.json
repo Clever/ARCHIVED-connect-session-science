@@ -16,7 +16,7 @@
     "science"
   ],
   "author": "azylman",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Clever/connect-session-science/issues"
   },
