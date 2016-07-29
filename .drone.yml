@@ -19,6 +19,8 @@ publish:
     when:
       branch: master
 script:
+- nvm install v6.3.1
+- nvm use v6.3.1
 - sudo pip install -q git+https://$REPORT_CARD_GITHUB_REPO_TOKEN@github.com/Clever/report-card.git; GITHUB_API_TOKEN=$REPORT_CARD_GITHUB_STATUS_TOKEN report-card --publish || true
 - npm install
 - make test
