@@ -11,7 +11,7 @@ module.exports = class ScienceSessionStore extends EventEmitter {
     this.control = control;
     this.candidate = candidate;
 
-    let logger = new kayvee.logger("science-session-store");
+    const logger = new kayvee.logger("science-session-store");
     this.gauge = logger.gauge.bind(logger);
 
     for (let meth of ['all', 'destroy', 'clear', 'length', 'get', 'set', 'touch']) {
