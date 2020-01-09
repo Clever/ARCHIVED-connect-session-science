@@ -24,7 +24,7 @@
   "dependencies": {
     "async": "^2.0.0",
     "deep-equal": "^1.0.1",
-    "kayvee": "^2.8.2"
+    "kayvee": "^3.13.0"
   },
   "devDependencies": {
     "mocha": "^2.5.3",
